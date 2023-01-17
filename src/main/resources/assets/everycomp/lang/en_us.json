@@ -213,5 +213,9 @@
   "wood_type.twilightforest.dark": "Darkwood",
 
   "block_type.infinitybuttons.large_button": "%s Large Button",
-  "block_type.infinitybuttons.plank_secret_button": "%s Plank Secret Button"
+  "block_type.infinitybuttons.plank_secret_button": "%s Plank Secret Button",
+
+  "block_type.carpenter.bookshelf": "%s Bookshelf",
+  "block_type.carpenter.chest": "%s Chest",
+  "block_type.carpenter.trapped_chest": "%s Trapped Chest"
 }

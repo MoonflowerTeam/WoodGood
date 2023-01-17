@@ -13,6 +13,7 @@ import net.mehvahdjukaar.every_compat.modules.another_furniture.AnotherFurniture
 import net.mehvahdjukaar.every_compat.modules.architect_palette.ArchitectsPaletteModule;
 import net.mehvahdjukaar.every_compat.modules.backpacked.BackpackedModule;
 import net.mehvahdjukaar.every_compat.modules.camp_chair.CampChairModule;
+import net.mehvahdjukaar.every_compat.modules.carpenter.CarpenterModule;
 import net.mehvahdjukaar.every_compat.modules.create.CreateModule;
 import net.mehvahdjukaar.every_compat.modules.deco_block.DecorativeBlocksModule;
 import net.mehvahdjukaar.every_compat.modules.farmersdelight.FarmersDelightModule;
@@ -126,6 +127,7 @@ public class WoodGood {
         addModule("valhelsia_structures", () -> ValhelsiaStructuresModule::new);
         addModule("quark", () -> QuarkModule::new);
         addModule("infinitybuttons", () -> InfinityButtonsModule::new);
+        addModule("carpenter", () -> CarpenterModule::new);
 
         //addModule("graveyard", () -> GraveyardModule::new);
         //addModule("benched", () -> BenchedModule::new);
